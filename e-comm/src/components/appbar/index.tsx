@@ -208,7 +208,7 @@ const Appbar = () => {
               width: "100%",
               alignItems: "center",
               zIndex: 99,
-              border: `1px solid ${theme.palette.border.main}`,
+              border: `1px solid #dddef1`,
             }}
           >
             <List

@@ -16,8 +16,7 @@ export const createTheme = (config: ThemeConfig): Theme => {
         palette: {
             primary: { main: '#5f2c3e' },
             secondary: { main: '#d1adcc', light: '#FAF9F9', dark: '#333'  },
-            info: { main: '#FAF9F9' },
-            border:{main: '#dddef1'}
+            info: { main: '#FAF9F9' }
         },
         typography: {
             fontFamily: '"Noto Sans Arabic", sans-serif',
