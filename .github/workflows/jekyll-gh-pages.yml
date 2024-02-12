@@ -78,6 +78,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+          working-directory: "/"
 
   # Deployment job
   deploy:
